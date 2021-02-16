@@ -4,6 +4,12 @@
 
 The main goal is to help businesses implement products that will simplify a person's life and make him happy.
 
+
+<!---------------------------------------------------------->
+<!------------------------Contacts-------------------------->
+<!---------------------------------------------------------->
+
+
 ### Contacts
 
 * Email - denisoed@gmail.com
@@ -15,6 +21,12 @@ The main goal is to help businesses implement products that will simplify a pers
 * Phone number - +996 550 06 12 94
 
 * Github - https://github.com/denisoed
+
+
+<!---------------------------------------------------------->
+<!-------------------------Skills--------------------------->
+<!---------------------------------------------------------->
+
 
 ## Skills:
 
@@ -37,126 +49,9 @@ The main goal is to help businesses implement products that will simplify a pers
 * Docker, Heroku
 
 
-## Experience:
-
-### Backend and Frontend Developer. Internship (Okt 2017 - Present)
-
-* Technologies: Python, Django, PosgreSQL, Javascript, HTML, CSS
-
-  - Development of an internal project for sending spam to different services.
-
-  - Development of a Telegram bot for finding mentors
-
-
-* Responsibilities:
-
-  - Development from scratch
-
-  - Frontend Developer. (Feb 2018 – Apr 2018)
-
-
-### Mad Location Manager - Technologies: HTML, SASS, JAVASCRIPT, GULP, PUG
-
-Layout of the landing page for the GPS filter Mad Location Manager
-
-* Responsibilities:
-
-  - Development from scratch
-
-
-### Silkroadexplore, ShowMeBishkek - Technologies: PHP, Wordpress, HTML, CSS, Javascript
-
-Organization of tours in Kyrgyzstan
-
-* Responsibilities:
-
-  - Support
-
-  - Development of new features
-
-
-### PekloTool - Technologies: Javascript, Vue.js, HTML, Scss
-
-Generation of contextual advertising
-
-* Responsibilities:
-
-  - Development from scratch
-
-  - Frontend Developer. (Apr 2018 - June 2018)
-
-
-### Mad Devs - Technologies: Javascript, Nuxt.js, HTML, SCSS
-
-Development of the official website for Mad Devs
-
-* Responsibilities:
-  
-  - Development from scratch
-
-  - Frontend Developer. (June 2018 - Aug 2019)
-
-
-### Nappy Club - Technologies: PHP, YII2, HTML, SCSS
-
-Sale of diapers throughout Russia
-
-* Responsibilities:
-
-  - Support
-
-  - Development of new features
-
-  - Frontend developer. (Aug 2019 - Dec 2019)
-
-
-### KICKEX - Technologies: Javascript, Vue.js, Pug, Scss
-
-KickEx - a cryptocurrency exchange with smart orders and low trading commissions.
-
-* Responsibilities:
-
-  - Development from scratch
-
-
-### Iview - Technologies: Javascript, React.js, Html, Scss
-
-Service for viewing traffic jams on alleys, using cameras
-
-* Responsibilities:
-
-  - Development from scratch
-
-
-### Simplonpass - Technologies: Javascript, React.js, Html, Scss
-
-Service for hiring companies, creating contracts, bonds, etc.
-
-* Responsibilities
-
-  - Development from scratch
-
-  - Frontend developer. (Jan 2020)
-
-
-### Edentity - Technologies: Javascript, Vue.js, Cypress, Vuetify, Html, Scss
-
-Developing a widget for the car showroom
-
-* Responsibilities
-
-  - Development from scratch
-
-
-### IotHub - Technologies: Javascript, React.js, Apollo client, Stripe.js
-
-IoT Hub is a system for organizing centralized configuration management and security checks of IoT devices (mainly intended for office work and companies): printers, UPS, routers, etc.
-
-* Responsibilities
-
-  - Development from scratch
-
-  - Frontend developer. (Okt 2020 - Dec 2020)
+<!---------------------------------------------------------->
+<!---------------------Pet projects------------------------->
+<!---------------------------------------------------------->
 
 
 ## Pet projects
@@ -194,6 +89,159 @@ https://github.com/denisoed/PWA-example
 Telegram bot for create StandUp 
 
 https://github.com/denisoed/StandUpMan
+
+
+<!---------------------------------------------------------->
+<!----------------------Experience-------------------------->
+<!---------------------------------------------------------->
+
+
+## Experience:
+
+### Backend and Frontend Developer. Internship (Okt 2017 - Present)
+
+* Technologies: Python, Django, PosgreSQL, Javascript, HTML, CSS
+
+  - Development of an internal project for sending spam to different services.
+
+  - Development of a Telegram bot for finding mentors
+
+
+### Mad Location Manager - Technologies: HTML, SASS, JAVASCRIPT, GULP, PUG
+
+This is library for GPS and Accelerometer data "fusion" with Kalman filter
+
+* Responsibilities:
+
+  - Frontend Developer. (Feb 2018 – Apr 2018)
+
+  - Did the layout of the site. https://gps.maddevs.io/en
+  
+  - Added multi-language functional without using plugins.
+
+
+### Silkroadexplore, ShowMeBishkek - Technologies: PHP, Wordpress, HTML, CSS, Javascript
+
+Organization of tours in Kyrgyzstan
+
+* Responsibilities:
+
+  - Development of new feature, Support.
+
+  - Deploy code to production via FTP FileZilla.
+
+  - Creation of new blocks on the pages, without the involvement of the designer.
+
+
+### PekloTool - Technologies: Javascript, Vue.js, HTML, Scss
+
+Generation of contextual advertising
+
+* Responsibilities:
+
+  - Frontend Developer. (Apr 2018 - June 2018)
+
+  - Development of new feature, Support.
+
+  - Server api integration on the client side.
+
+
+### Mad Devs - Technologies: Javascript, Nuxt.js, HTML, SCSS
+
+Development of the official website for Mad Devs
+
+* Responsibilities:
+
+  - Frontend Developer. (June 2018 - Aug 2019)
+  
+  - The layout of the new design for the website of the company Mad Devs.
+
+  - Migrating MD site to nuxt.js framework
+
+
+### Nappy Club - Technologies: PHP, YII2, HTML, SCSS
+
+Sale of diapers throughout Russia
+
+* Responsibilities:
+
+  - Frontend developer. (Aug 2019 - Dec 2019)
+
+  - Development of new features, support
+
+  - HTML letter layout
+
+  - Writing integration tests for fronted
+
+
+### KICKEX - Technologies: Javascript, Vue.js, Pug, Scss
+
+KickEx - a cryptocurrency exchange with smart orders and low trading commissions.
+
+* Responsibilities:
+
+  - Project layout from scratch, create components, adding a dark theme
+
+  - Setup tradingview charts. https://www.tradingview.com 
+
+
+### Iview - Technologies: Javascript, React.js, Html, Scss
+
+Service for viewing traffic jams on alleys, using cameras
+
+* Responsibilities:
+
+  - Project layout from scratch
+
+  - PWA Setup
+
+
+### Simplonpass - Technologies: Javascript, React.js, Html, Scss
+
+Service for hiring companies, creating contracts, bonds, etc.
+
+* Responsibilities
+
+  - Frontend developer. (Jan 2020)
+
+  - Development assistance
+
+  - Setup JWT authentication
+
+
+### Edentity - Technologies: Javascript, Vue.js, Cypress, Vuetify, Html, Scss
+
+Developing a widget for the car showroom
+
+* Responsibilities
+
+  - Widget development for websites without using html iframe
+
+  - Layout of the admin panel for the widget
+
+  - Setup unit, component, integration tests. Setup json server for tests
+
+
+### IotHub - Technologies: Javascript, React.js, Apollo client, Stripe.js
+
+IoT Hub is a system for organizing centralized configuration management and security checks of IoT devices (mainly intended for office work and companies): printers, UPS, routers, etc.
+
+* Responsibilities
+
+  - Frontend developer. (Okt 2020 - Dec 2020)
+
+  - Development of new features, support
+
+  - Testing of finished components
+
+  - Connecting and configuring Stripe.js
+
+  - Setup React Apollo Client
+
+
+<!---------------------------------------------------------->
+<!-----------------------Languages-------------------------->
+<!---------------------------------------------------------->
 
 
 ## Languages: 

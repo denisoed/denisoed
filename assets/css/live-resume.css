@@ -7895,22 +7895,19 @@ main {
       main .portfolio-wrapper .portfolio-item-details {
         padding: 22px 26px;
         background-color: rgba(0, 0, 0, 0.42);
-        color: #ffffff;
-        transition: background-color 1.5s ease;
-        transition-delay: 0.3s; }
+        color: #ffffff; }
       main .portfolio-wrapper .portfolio-item-title {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
         line-height: 1;
         margin-bottom: 5px; }
       main .portfolio-wrapper .portfolio-item-description {
         font-size: 14px;
-        line-height: 1;
-        margin-bottom: 0; }
+        line-height: 1.2;
+        margin-bottom: 0;
+        font-weight: 500; }
       main .portfolio-wrapper .portfolio-item:hover .portfolio-item-img {
         transform: scale(1.3); }
-      main .portfolio-wrapper .portfolio-item:hover .portfolio-item-details {
-        background-color: rgba(0, 0, 0, 0.1); }
   main .blog-section {
     margin-bottom: 51px; }
   main .blog-posts-wrapper {

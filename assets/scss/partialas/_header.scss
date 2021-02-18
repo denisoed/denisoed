@@ -15,7 +15,7 @@ header {
     transition: width 0.6s ease-in-out;
 
     &.show {
-        width: 365px;
+        width: 300px;
     }
 
     @media(max-width: 991px) {

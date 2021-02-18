@@ -1,0 +1,73 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title Portfolio
+  link(href='https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='assets/vendors/@fortawesome/fontawesome-free/css/all.min.css')
+  link(rel='stylesheet' href='assets/css/live-resume.css')
+body
+  header
+    button.btn.btn-white.btn-share.ml-auto.mr-3.ml-md-0.mr-md-auto
+      img.btn-img(src='assets/images/share.svg' alt='share')
+      | SHARE
+    nav#collapsible-nav.collapsible-nav
+      a.nav-link(href='index.html') Resume
+      a.nav-link.active(href='portfolio.html') Portfolio
+      a.nav-link(href='#') Blog
+      a.nav-link(href='#') Contact
+    button.btn.btn-menu-toggle.btn-white.rounded-circle(data-toggle='collapsible-nav' data-target='collapsible-nav')
+      img(src='assets/images/hamburger.svg' alt='hamburger')
+  .content-wrapper
+    include ../assets/components/aside.pug
+    main
+      section.portfolio-section
+      h2.section-title PORTFOLIO in progress...
+      .portfolio-wrapper
+        figure.portfolio-item.hover-box
+          img.portfolio-item-img(src='assets/images/img_1.png' alt='project')
+          figcaption.portfolio-item-details.overlay
+            h5.portfolio-item-title PROJECT 01
+            p.portfolio-item-description Branding, Photography
+        figure.portfolio-item.hover-box
+          img.portfolio-item-img(src='assets/images/img_2.png' alt='project')
+          figcaption.portfolio-item-details.overlay
+            h5.portfolio-item-title PROJECT 02
+            p.portfolio-item-description Branding, Photography
+        figure.portfolio-item.hover-box
+          img.portfolio-item-img(src='assets/images/img_3.png' alt='project')
+          figcaption.portfolio-item-details.overlay
+            h5.portfolio-item-title PROJECT 03
+            p.portfolio-item-description Branding, Photography
+        figure.portfolio-item.hover-box
+          img.portfolio-item-img(src='assets/images/img_4.png' alt='project')
+          figcaption.portfolio-item-details.overlay
+            h5.portfolio-item-title PROJECT 04
+            p.portfolio-item-description Branding, Photography
+        figure.portfolio-item.hover-box
+          img.portfolio-item-img(src='assets/images/img_5.png' alt='project')
+          figcaption.portfolio-item-details.overlay
+            h5.portfolio-item-title PROJECT 05
+            p.portfolio-item-description Branding, Photography
+        figure.portfolio-item.hover-box
+          img.portfolio-item-img(src='assets/images/img_6.png' alt='project')
+          figcaption.portfolio-item-details.overlay
+            h5.portfolio-item-title PROJECT 06
+            p.portfolio-item-description Branding, Photography
+        figure.portfolio-item.hover-box
+          img.portfolio-item-img(src='assets/images/img_7.png' alt='project')
+          figcaption.portfolio-item-details.overlay
+            h5.portfolio-item-title PROJECT 07
+            p.portfolio-item-description Branding, Photography
+        figure.portfolio-item.hover-box
+          img.portfolio-item-img(src='assets/images/img_8.png' alt='project')
+          figcaption.portfolio-item-details.overlay
+            h5.portfolio-item-title PROJECT 08
+            p.portfolio-item-description Branding, Photography
+      include ../assets/components/footer.pug
+  script(src='../assets/vendors/jquery/jquery.min.js')
+  script(src='../assets/vendors/@popperjs/core/dist/umd/popper-base.min.js')
+  script(src='../assets/vendors/bootstrap/js/bootstrap.min.js')
+  script(src='../assets/vendors/entry/jq.entry.min.js')
+  script(src='../assets/js/live-resume.js')

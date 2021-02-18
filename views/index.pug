@@ -1,0 +1,188 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title Resume
+  link(href='https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='assets/vendors/@fortawesome/fontawesome-free/css/all.min.css')
+  link(rel='stylesheet' href='assets/css/live-resume.css')
+body
+  header
+    button.btn.btn-white.btn-share.ml-auto.mr-3.ml-md-0.mr-md-auto
+      img.btn-img(src='assets/images/share.svg' alt='share')
+      | SHARE
+    nav#collapsible-nav.collapsible-nav
+      a.nav-link.active(href='index.html') Resume
+      a.nav-link(href='portfolio.html') Portfolio
+      a.nav-link(href='#') Blog
+      a.nav-link(href='#') Contact
+    button.btn.btn-menu-toggle.btn-white.rounded-circle(data-toggle='collapsible-nav' data-target='collapsible-nav')
+      img(src='assets/images/hamburger.svg' alt='hamburger')
+  .content-wrapper
+    include ../assets/components/aside.pug
+    main
+      section.intro-section
+        h2.section-title Hello, I&apos;m Denisoed!
+        p
+          | The main goal is to help businesses implement products that will simplify a person&apos;s life and make him happy.
+        // <a href="#!" class="btn btn-primary btn-hire-me">HIRE ME</a>
+      section.resume-section
+        .row
+          .col-lg-12
+            .row
+              .col-lg-12
+                h6.section-subtitle RESUME
+                h2.section-title Experience
+            .row
+              .col-lg-12
+                .row
+                  .col-lg-6
+                    ul.time-line
+                      li.time-line-item
+                        span.badge.badge-primary Okt 2017 - Jan 2018
+                        h6.time-line-item-title Mad Devs internship programm
+                        p.time-line-item-subtitle Technologies: Python, Django, PosgreSQL, Javascript, HTML, CSS
+                        p.time-line-item-content - Development of an internal project for sending spam to different services.
+                        p.time-line-item-content - Development of a Telegram bot for finding mentors
+                      li.time-line-item
+                        span.badge.badge-primary Jan 2018 &ndash; Feb 2018
+                        h6.time-line-item-title Mad Location Manager - Gulp, Javascript, Html, Sass, Pug
+                        p.time-line-item-subtitle This is library for GPS and Accelerometer data &quot;fusion&quot; with Kalman filter
+                        p.time-line-item-content - Did the layout of the site. https://gps.maddevs.io/en
+                        p.time-line-item-content - Added multi-language functional without using plugins.
+                      li.time-line-item
+                        span.badge.badge-primary Fed 2018 - May 2018
+                        h6.time-line-item-title Silkroadexplore, ShowMeBishkek - PHP, Wordpress, HTML, CSS, Javascript
+                        p.time-line-item-subtitle Organization of tours in Kyrgyzstan
+                        p.time-line-item-content - Development of new feature, Support.
+                        p.time-line-item-content - Deploy code to production via FTP FileZilla.
+                        p.time-line-item-content - Creation of new blocks on the pages, without the involvement of the designer.
+                      li.time-line-item
+                        span.badge.badge-primary May 2018 - Jul 2018
+                        h6.time-line-item-title PekloTool - Javascript, Vue.js, HTML, Scss
+                        p.time-line-item-subtitle Generation of contextual advertising
+                        p.time-line-item-content - Development of new feature, Support.
+                        p.time-line-item-content - Server api integration on the client side.
+                      li.time-line-item
+                        span.badge.badge-primary Jul 2018 - Aug 2018
+                        h6.time-line-item-title Website for Mad Devs - Javascript, Vue.js, Nuxt.js, Html, Scss
+                        p.time-line-item-subtitle Development of the official website for Mad Devs
+                        p.time-line-item-content - The layout of the new design for the website of the company Mad Devs.
+                        p.time-line-item-content - Migrating MD site from Vue.js to Nuxt.js framework
+                      li.time-line-item
+                        span.badge.badge-primary Aug 2018 - Jul 2019
+                        h6.time-line-item-title Nappy Club - PHP, Yii2, Html, Scss
+                        p.time-line-item-subtitle Sale of diapers throughout Russia
+                        p.time-line-item-content - Development of new features, support.
+                        p.time-line-item-content - HTML letter layout.
+                        p.time-line-item-content - Writing integration tests for fronted.
+                  .col-lg-6
+                    ul.time-line
+                      li.time-line-item
+                        span.badge.badge-primary Jan 2019 - Dec 2019
+                        h6.time-line-item-title KICKEX - Javascript, Vue.js, Pug, Scss
+                        p.time-line-item-subtitle
+                          | KickEx - a cryptocurrency exchange with smart orders and low trading commissions.
+                        p.time-line-item-content - Project layout from scratch, create components, adding a dark theme
+                        p.time-line-item-content - Setup tradingview charts. https://www.tradingview.com
+                      li.time-line-item
+                        span.badge.badge-primary Dec 2019 &ndash; Jan 20
+                        h6.time-line-item-title Iview - Javascript, React.js, Html, Scss
+                        p.time-line-item-subtitle Service for viewing traffic jams on alleys, using cameras
+                        p.time-line-item-content - Project layout from scratch
+                        p.time-line-item-content - PWA Setup
+                      li.time-line-item
+                        span.badge.badge-primary Jan 2020 &ndash; Feb 2020
+                        h6.time-line-item-title Simplonpass - Javascript, React.js, Html, Scss
+                        p.time-line-item-subtitle Service for hiring companies, creating contracts, bonds, etc.
+                        p.time-line-item-content - Development assistance
+                        p.time-line-item-content - Setup JWT authentication
+                      li.time-line-item
+                        span.badge.badge-primary Fed 2020 - Until now
+                        h6.time-line-item-title Edentity - Javascript, Vue.js, Cypress, Vuetify, Html, Scss
+                        p.time-line-item-subtitle Developing a widget for the car showroom and admin panel
+                        p.time-line-item-content - Widget development for websites without using html iframe
+                        p.time-line-item-content - Layout of the admin panel for the widget via Vuetify
+                        p.time-line-item-content - Setup unit, component, integration tests. Setup json server for tests
+                      li.time-line-item
+                        span.badge.badge-primary Okt 2020 &ndash; Dec 2020
+                        h6.time-line-item-title IotHub - Javascript, React.js, Apollo client, Stripe.js
+                        p.time-line-item-subtitle
+                          | IoT Hub is a system for organizing centralized configuration management and security checks of IoT devices (mainly intended for office work and companies): printers, UPS, routers, etc.
+                        p.time-line-item-content - Development of new features, support
+                        p.time-line-item-content - Testing of finished components
+                        p.time-line-item-content - Connecting and configuring Stripe.js
+                        p.time-line-item-content - Setup React Apollo Client
+      //
+        section.services-section
+          h6.section-subtitle What I can do
+          h2.section-title Skills
+          .row
+            .media.service-card.col-lg-6
+              .service-icon
+                img(src='assets/images/001-target.svg' alt='target')
+              .media-body
+                h5.service-title Project Builders
+                p.service-description
+                  | Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                  | tortor.
+            .media.service-card.col-lg-6
+              .service-icon
+                img(src='assets/images/003-idea.svg' alt='bulb')
+              .media-body
+                h5.service-title Deploy on production
+                p.service-description
+                  | Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                  | tortor.
+            .media.service-card.col-lg-6
+              .service-icon
+                img(src='assets/images/002-development.svg' alt='development')
+              .media-body
+                h5.service-title Test
+                p.service-description
+                  | Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                  | tortor.
+            .media.service-card.col-lg-6
+              .service-icon
+                img(src='assets/images/004-smartphone.svg' alt='smartphone')
+              .media-body
+                h5.service-title Mobile design
+                p.service-description
+                  | Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                  | tortor.
+      //
+        <section class="testimonial-section">
+        <div id="testimonialCarousel" class="testimonial-carousel carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
+        interdum sed tortor.</p>
+        <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+        <p class="testimonial-name">Nout Golstein</p>
+        </div>
+        <div class="carousel-item">
+        <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
+        interdum sed tortor.</p>
+        <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+        <p class="testimonial-name">Nout Golstein</p>
+        </div>
+        <div class="carousel-item">
+        <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
+        interdum sed tortor.</p>
+        <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+        <p class="testimonial-name">Nout Golstein</p>
+        </div>
+        </div>
+        <ol class="carousel-indicators">
+        <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+        <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+        </ol>
+        </div>
+        </section>
+      include ../assets/components/footer.pug
+  script(src='assets/vendors/jquery/jquery.min.js')
+  script(src='assets/vendors/@popperjs/core/dist/umd/popper-base.min.js')
+  script(src='assets/vendors/bootstrap/js/bootstrap.min.js')
+  script(src='assets/js/live-resume.js')

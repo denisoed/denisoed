@@ -5,6 +5,7 @@ const sass = require('gulp-sass');
 const sourceMaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync');
+const pug = require('gulp-pug');
 
 //SCSS
 
@@ -16,6 +17,15 @@ function style() {
     .pipe(sourceMaps.write('./'))
     .pipe(gulp.dest('./assets/css'))
     .pipe(browserSync.stream());
+}
+
+function views() {
+    return gulp.src('views/**/*.pug')
+    .pipe(pug({
+        doctype: 'html',
+        pretty: false
+    }))
+    .pipe(gulp.dest('./'));
 }
 
 //Serve and watch
@@ -30,10 +40,12 @@ function watch() {
         notify: false
     });
     gulp.watch('./assets/scss/**/*.scss', style);
+    gulp.watch('./views/**/*.pug', views);
     gulp.watch('./*.html').on('change', browserSync.reload);
     gulp.watch('./assets/js/*.js').on('change', browserSync.reload);
 
 }
 
 exports.style = style;
+exports.watch = views;
 exports.watch = watch;

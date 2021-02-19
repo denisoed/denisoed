@@ -7924,12 +7924,18 @@ main {
         main .blog-posts-wrapper .blog-post {
           width: 100%; } }
       main .blog-posts-wrapper .blog-post-link {
+        display: block;
         color: inherit; }
         main .blog-posts-wrapper .blog-post-link:hover {
           text-decoration: none; }
       main .blog-posts-wrapper .blog-post-thumbnail {
         width: 100%;
-        margin-bottom: 13px; }
+        height: 245px;
+        max-height: 245px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        margin-bottom: 13px;
+        background-color: #F3F3F3; }
       main .blog-posts-wrapper .blog-post-title {
         font-size: 15px;
         font-weight: 500;
@@ -7938,7 +7944,7 @@ main {
       main .blog-posts-wrapper .blog-post-meta {
         color: #0067f6;
         text-transform: uppercase;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
         line-height: 1.2;
         margin-bottom: 0; }

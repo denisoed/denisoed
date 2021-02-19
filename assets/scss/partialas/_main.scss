@@ -429,6 +429,7 @@ main {
             }
 
             &-link {
+                display: block;
                 color: inherit;
 
                 &:hover {
@@ -438,7 +439,11 @@ main {
 
             &-thumbnail {
                 width: 100%;
+                height: 245px;
+                max-height: 245px;
+                object-fit: cover;
                 margin-bottom: 13px;
+                background-color: #F3F3F3;
             }
 
             &-title {
@@ -451,7 +456,7 @@ main {
             &-meta {
                 color: $primary;
                 text-transform: uppercase;
-                font-size: 10px;
+                font-size: 12px;
                 font-weight: $font-weight-medium;
                 line-height: 1.2;
                 margin-bottom: 0;

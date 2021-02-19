@@ -1,0 +1,70 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible' content='ie=edge')
+    title Blog
+    link(href='https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap' rel='stylesheet')
+    link(rel='stylesheet' href='assets/vendors/@fortawesome/fontawesome-free/css/all.min.css')
+    link(rel='stylesheet' href='assets/css/live-resume.css')
+  body
+    header
+      button.btn.btn-white.btn-share.ml-auto.mr-3.ml-md-0.mr-md-auto
+        img.btn-img(src='assets/images/share.svg' alt='share')
+        | SHARE
+      nav#collapsible-nav.collapsible-nav
+        a.nav-link(href='index.html') Resume
+        a.nav-link(href='portfolio.html') Portfolio
+        a.nav-link.active(href='blog.html') Blog
+        a.nav-link(href='#') Contact
+      button.btn.btn-menu-toggle.btn-white.rounded-circle(data-toggle='collapsible-nav' data-target='collapsible-nav')
+        img(src='assets/images/hamburger.svg' alt='hamburger')
+    .content-wrapper
+      include ../assets/components/aside.pug
+      main
+        section.blog-section
+          h2.section-title LATEST NEWS
+          .blog-posts-wrapper
+            article.blog-post
+              a.blog-post-link(href='https://maddevs.io/blog/progressive-web-apps-practical-usage-guide')
+                img.blog-post-thumbnail(src='https://images.prismic.io/superpupertest/c2fe46a4-59b1-4b75-8ef1-f2d12b7f6fbc_1.png' alt='news 1')
+                h5.blog-post-title Progressive Web Apps: Practical usage guide
+              p.blog-post-meta
+                span.post-published-date 23 Jun 2020
+            article.blog-post
+              a.blog-post-link(href='#!')
+                img.blog-post-thumbnail(src='assets/images/News_2.jpg' alt='news 2')
+                h5.blog-post-title Design Conferences in 2019
+              p.blog-post-meta
+                span.post-published-date 28 DEC 2019
+            article.blog-post
+              a.blog-post-link(href='#!')
+                img.blog-post-thumbnail(src='assets/images/News_3.jpg' alt='news 3')
+                h5.blog-post-title Design Conferences in 2019
+              p.blog-post-meta
+                span.post-published-date 28 DEC 2019
+            article.blog-post
+              a.blog-post-link(href='#!')
+                img.blog-post-thumbnail(src='assets/images/News_4.jpg' alt='news 4')
+                h5.blog-post-title Design Conferences in 2019
+              p.blog-post-meta
+                span.post-published-date 28 DEC 2019
+            article.blog-post
+              a.blog-post-link(href='#!')
+                img.blog-post-thumbnail(src='assets/images/News_5.jpg' alt='news 5')
+                h5.blog-post-title Design Conferences in 2019
+              p.blog-post-meta
+                span.post-published-date 28 DEC 2019
+            article.blog-post
+              a.blog-post-link(href='#!')
+                img.blog-post-thumbnail(src='assets/images/News_6.jpg' alt='news 6')
+                h5.blog-post-title Design Conferences in 2019
+              p.blog-post-meta
+                span.post-published-date 28 DEC 2019
+        include ../assets/components/footer.pug
+    script(src='assets/vendors/jquery/jquery.min.js')
+    script(src='assets/vendors/@popperjs/core/dist/umd/popper-base.min.js')
+    script(src='assets/vendors/bootstrap/js/bootstrap.min.js')
+    script(src='assets/vendors/entry/jq.entry.min.js')
+    script(src='assets/js/live-resume.js')

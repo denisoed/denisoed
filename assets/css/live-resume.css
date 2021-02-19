@@ -7446,12 +7446,12 @@ aside .social-links {
   text-align: center; }
   aside .social-links .social-link {
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1;
     color: #0067f6;
     text-align: center;
     background-color: #ffffff;
-    padding: 8px;
+    padding: 6px;
     width: 28px;
     height: 28px;
     border-radius: 50%;

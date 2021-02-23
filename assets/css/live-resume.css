@@ -7490,6 +7490,7 @@ aside .widget {
   font-size: 0.75rem;
   font-weight: 500;
   line-height: 1.67;
+  text-transform: uppercase;
   height: 30px; }
   .btn-share:hover, .btn-share:focus, .btn-share:active {
     background-color: #ffffff;

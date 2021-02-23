@@ -25,9 +25,9 @@ head
 
 body
   header
-    button.btn.btn-white.btn-share.ml-auto.mr-3.ml-md-0.mr-md-auto
+    button.btn.btn-white.btn-share.ml-auto.mr-3.ml-md-0.mr-md-auto(data-social='telegram')
       img.btn-img(src='assets/images/share.svg' alt='share')
-      | SHARE
+      | Share to Telegram
     nav#collapsible-nav.collapsible-nav
       a.nav-link.active(href='index.html') Resume
       a.nav-link(href='portfolio.html') Portfolio
@@ -247,4 +247,5 @@ body
   script(src='assets/vendors/jquery/jquery.min.js')
   script(src='assets/vendors/@popperjs/core/dist/umd/popper-base.min.js')
   script(src='assets/vendors/bootstrap/js/bootstrap.min.js')
+  script(src='//cdn.jsdelivr.net/npm/goodshare.js@6/goodshare.min.js')
   script(src='assets/js/live-resume.js')

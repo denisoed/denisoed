@@ -70,8 +70,8 @@ main {
                 content: "";
                 display: block;
                 position: absolute;
-                top: 0;
-                left: 0px;
+                top: 5px;
+                left: 0;
                 width: 10px;
                 height: 10px;
                 border-radius: 50%;
@@ -84,19 +84,13 @@ main {
                 }
             }
 
-            &:not(:first-child) {
-                &::after {
-                    top: 5px;
-                }
-            }
-
             &:last-child {
                 padding-bottom: 0;
             }
 
             .badge {
                 padding: 6px 10px;
-                font-size: 12px;
+                font-size: 13px;
                 font-weight: $font-weight-medium;
                 line-height: 1;
                 border-radius: 2px;

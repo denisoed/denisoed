@@ -1,3 +1,6 @@
+.mr-2 {
+  margin-right: -8px; }
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7684,21 +7687,19 @@ main {
         content: "";
         display: block;
         position: absolute;
-        top: 0;
-        left: 0px;
+        top: 5px;
+        left: 0;
         width: 10px;
         height: 10px;
         border-radius: 50%;
         background-color: #979797; }
       main .time-line-item:nth-child(2n)::after {
         background-color: #0067f6; }
-      main .time-line-item:not(:first-child)::after {
-        top: 5px; }
       main .time-line-item:last-child {
         padding-bottom: 0; }
       main .time-line-item .badge {
         padding: 6px 10px;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 500;
         line-height: 1;
         border-radius: 2px;

@@ -13,6 +13,9 @@ $(document).ready(function(){
     if ($('.hover-box').length) {
         setHoverBoxPerspective();
     }
+
+    // Footer year
+    $('#footerYear').text(new Date().getFullYear());
 });
 
 $(window).resize(

@@ -7525,6 +7525,7 @@ aside .widget {
   width: 100%;
   height: 40px;
   padding: 6px 30px;
+  margin-bottom: 28px;
   text-transform: none;
   line-height: normal; }
   .btn-download-pdf img {
@@ -7592,7 +7593,7 @@ header {
       padding-bottom: 0; }
 
 body {
-  padding: 20px 40px; }
+  padding: 20px 28px; }
   @media (max-width: 991px) {
     body {
       padding-top: 87px; } }
@@ -7627,7 +7628,7 @@ header {
       flex-direction: column; } }
 
 aside {
-  padding-right: 30px;
+  padding-right: 28px;
   min-width: 240px; }
   @media (max-width: 767px) {
     aside {

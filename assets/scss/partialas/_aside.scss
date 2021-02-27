@@ -6,6 +6,11 @@ aside {
             width: 60px;
             height: 60px;
             border-radius: 50%;
+
+            @media(max-width: 767px) {
+                width: 80px;
+                height: 80px;
+            }
         }
     }
 
@@ -41,6 +46,13 @@ aside {
             border-radius: 50%;
             margin-right: 4px;
 
+            @media(max-width: 767px) {
+                font-size: 24px;
+                width: 36px;
+                height: 36px;
+                margin-right: 14px;
+            }
+
             &:last-child {
                 margin-right: 0;
             }
@@ -59,6 +71,11 @@ aside {
         }
         .widget-content {
             font-size: 13px;
+
+            @media(max-width: 767px) {
+                font-size: 14px;
+            }
+
             p{
                 margin-bottom: 5px;
 

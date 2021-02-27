@@ -6,6 +6,7 @@ const sourceMaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync');
 const pug = require('gulp-pug');
+const cleanCSS = require('gulp-clean-css');
 
 //SCSS
 
@@ -15,6 +16,7 @@ function style() {
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(sourceMaps.write('./'))
+    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('./assets/css'))
     .pipe(browserSync.stream());
 }

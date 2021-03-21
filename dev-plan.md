@@ -117,6 +117,10 @@
 
 **Продать 20 футболок из собственного интернет магазина до конца 2021 года**
 
+## График
+
+<iframe src="https://calendar.google.com/calendar/embed?src=denisoed%40gmail.com&ctz=Asia%2FBishkek" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ## Заключение
 
 Может возникнуть довольно очевидный вопрос **"Откуда брать энергию и мотивацию?"**

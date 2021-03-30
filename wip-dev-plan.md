@@ -21,7 +21,18 @@
 
 **Дедлайн 1ое июня**
 
-1. Результат: До 31 Марта должен быть формирован список тем из 10ти штук, на которые буду писать статьи.    
+1. Результат: До 31 Марта должен быть формирован список тем из 10ти штук, на которые буду писать статьи.
+* Getting started with Amazon S3
+* How to create SSR app on NUXT
+* Example REST API on Node.js
+* Create a widget on Vue
+* How to create a browser widget
+* How to optimize a website
+* Build cross-platform desktop apps with JavaScript, HTML, and CSS
+* Create a mobile app on Vue Native
+*
+*
+
 2. Результат: К концу дедлаина должно быть написано 10 новых статей.
 3. Результат: Прочитанная электронная книга - High Performance
 Browser Networking https://hpbn.co

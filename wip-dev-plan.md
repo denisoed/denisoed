@@ -30,15 +30,14 @@
 * How to optimize a website
 * Build cross-platform desktop apps with JavaScript, HTML, and CSS
 * Create a mobile app on Vue Native
-*
-*
+* Getting started with Docker & Docker-Compose
+* Webpack 5 — The Complete Guide
 
 2. Результат: К концу дедлаина должно быть написано 10 новых статей.
 3. Результат: Прочитанная электронная книга - High Performance
 Browser Networking https://hpbn.co
-4. Результат: Разобрался как работает JS движек V8,
-5. Результат: Разобрался как работает реактивность, создал репу на github с примером
-6. Результат: Разобрался как работает Event Loop в Node.js
+4. Результат: Понимание принципов работы SSR (Server Side Rendering)
+5. Результат: Разобрался с Composition API во VueJS 3
 
 ### Менеджмент, Маркетинг, Бизнес:
 
@@ -50,7 +49,11 @@ Browser Networking https://hpbn.co
 
 ## Июнь - Август
 
-...
+### Подтянуть теорию:
+
+1. Результат: Разобрался как работает реактивность, создал репу на github с примером
+2. Результат: Разобрался как работает JS движек V8,
+3. Результат: Разобрался как работает Event Loop в Node.js
 
 ## Август - Октябрь
 

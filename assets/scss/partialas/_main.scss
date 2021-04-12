@@ -415,8 +415,12 @@ main {
         justify-content: space-between;
 
         .blog-post {
-            width: calc(33.33% - 15px);
+            width: calc(25% - 15px);
             margin-bottom: 24px;
+
+            @media (max-width: 1440px) {
+                width: calc(33.33% - 15px);
+            }
 
             @media (max-width: 1200px) {
                 width: calc(50% - 8.5px);
@@ -437,14 +441,15 @@ main {
 
             &-thumbnail {
                 width: 100%;
-                height: 160px;
-                max-height: 245px;
+                height: 200px;
+                max-height: 260px;
                 object-fit: cover;
+                object-position: left center;
                 margin-bottom: 13px;
                 background-color: #F3F3F3;
 
-                @media (max-width: 1200px) {
-                    height: 224px;
+                @media (max-width: 768px) {
+                    height: auto;
                 }
             }
 

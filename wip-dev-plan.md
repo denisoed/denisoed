@@ -64,14 +64,23 @@
 1. ~~Результат: До 31 Марта должен быть формирован список тем из 10ти штук, на которые буду писать статьи~~.
 * ~~Getting started with Amazon S3~~
 * How to create SSR app on NUXT
+* How to Use HTML5 Semantic Tags?
+* A Complete Guide to Vue Lifecycle Hooks – with Vue 3 Updates
+* Top best plugins to add Drag and Drop to Your VueJS Project
+* How to Make Your First VueJS 3 Plugin?
+* How to migrate from vue 2 to vue 3?
+* How to validate forms in Vue?
+* How to configure typescript in Vue?
+* How to integrate Firebase to Vue?
+* How to optimize NuxtJS website performance?
+* Vue vs React: Should You Choose VueJS Over React?
+* How to create a browser widget on Vue
 * Example REST API on Node.js
 * Create a widget on Vue
-* How to create a browser widget
-* How to optimize a website
-* Build cross-platform desktop apps with JavaScript, HTML, and CSS
-* Create a mobile app on Vue Native
 * Getting started with Docker & Docker-Compose
 * Webpack 5 — The Complete Guide
+* Create a mobile app on Vue Native
+* Build cross-platform desktop apps with JavaScript, HTML, and CSS
 
 2. Результат: К концу дедлаина должно быть написано 10 новых статей.
 3. Результат: Прочитанная электронная книга - High Performance

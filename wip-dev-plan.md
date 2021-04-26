@@ -63,7 +63,7 @@
 
 1. ~~Результат: До 31 Марта должен быть формирован список тем из 10ти штук, на которые буду писать статьи~~.
 * ~~Getting started with Amazon S3~~
-* How to create SSR app on NUXT
+* ~~How to create SSR app on NUXT~~
 * How to Use HTML5 Semantic Tags?
 * A Complete Guide to Vue Lifecycle Hooks – with Vue 3 Updates
 * Top best plugins to add Drag and Drop to Your VueJS Project

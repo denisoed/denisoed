@@ -64,12 +64,12 @@
 1. ~~Результат: До 31 Марта должен быть формирован список тем из 10ти штук, на которые буду писать статьи~~.
 * ~~Getting started with Amazon S3~~
 * ~~How to create SSR app on NUXT~~
-* How to Use HTML5 Semantic Tags?
-* A Complete Guide to Vue Lifecycle Hooks – with Vue 3 Updates
+* ~~How to Use HTML5 Semantic Tags?~~
+* How to validate forms in Vue?
 * Top best plugins to add Drag and Drop to Your VueJS Project
 * How to Make Your First VueJS 3 Plugin?
 * How to migrate from vue 2 to vue 3?
-* How to validate forms in Vue?
+* A Complete Guide to Vue Lifecycle Hooks – with Vue 3 Updates
 * How to configure typescript in Vue?
 * How to integrate Firebase to Vue?
 * How to optimize NuxtJS website performance?

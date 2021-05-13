@@ -65,7 +65,7 @@
 * ~~Getting started with Amazon S3~~
 * ~~How to create SSR app on NUXT~~
 * ~~How to Use HTML5 Semantic Tags?~~
-* How to validate forms in Vue?
+* ~~How to validate forms in Vue?~~
 * Top best plugins to add Drag and Drop to Your VueJS Project
 * How to Make Your First VueJS 3 Plugin?
 * How to migrate from vue 2 to vue 3?

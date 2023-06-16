@@ -11,11 +11,10 @@ header {
     align-items: center;
     width: 0px;
     overflow: hidden;
-    margin-right: 10px;
     transition: width 0.6s ease-in-out;
 
     &.show {
-        width: 300px;
+        width: 205px;
     }
 
     @media(max-width: 991px) {

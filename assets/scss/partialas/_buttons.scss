@@ -20,6 +20,11 @@
     &:hover {
         box-shadow: 0 3px 5px 0 rgba($black, 0.2);
     }
+
+    img {
+        width: 10px;
+        height: 10px;
+    }
 }
 
 .btn-img {
@@ -36,6 +41,7 @@
     transition: all 0.2s ease-in-out;
 
     img {
+        width: 11px;
         height: 10px;
     }
 

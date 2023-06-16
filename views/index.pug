@@ -1,3 +1,4 @@
+- var title = 'Denis Grushkin'
 - var desc = 'My goal is to help grow the business by introducing new technologies.'
 block variables
 
@@ -6,8 +7,12 @@ head
   meta(charset='UTF-8')
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   meta(http-equiv='X-UA-Compatible' content='ie=edge')
-  title Denis Grushkin
+  title #{title}
   meta(name='description' content=desc)
+  meta(property='og:title' content=title)
+  meta(property='og:description' content=desc)
+  meta(property='og:image' content='https://denisoed.github.io/denisoed/assets/images/me.jpg')
+  meta(property='og:url' content='https://denisoed.github.io/denisoed/')
   link(href='https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap' rel='stylesheet')
   link(rel='stylesheet' href='assets/vendors/@fortawesome/fontawesome-free/css/all.min.css')
   link(rel='stylesheet' href='assets/css/live-resume.css')
